@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "346004e8-ecb6-47b0-b3a0-f932d7148915++234",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "346004e8-ecb6-47b0-b3a0-f932d7148915++234" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "346004e8-ecb6-47b0-b3a0-f932d7148915++234" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4FF84CDD-808A-48E5-AB14-F93E7955975D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "346004e8-ecb6-47b0-b3a0-f932d7148915++234" : "DJCorp_58SuYun\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DJAlertViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SuYunLib\/SYUIComponents\/DJAlertView\/DJAlertViewDemo\/DJAlertViewDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.djcorp.cn:8088\/dianshangwuxian",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "346004e8-ecb6-47b0-b3a0-f932d7148915++234"
+    }
+  ]
+}

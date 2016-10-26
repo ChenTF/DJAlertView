@@ -1,0 +1,19 @@
+PODS:
+  - DJAlertView (1.0.0):
+    - Masonry
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - DJAlertView (from `../../DJAlertView`)
+
+EXTERNAL SOURCES:
+  DJAlertView:
+    :path: "../../DJAlertView"
+
+SPEC CHECKSUMS:
+  DJAlertView: 00f2273fb8d128e9c94790b574ace858b0ef7ce6
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: d7583b36e32fc49e7666cffc334ee9b2c6d506e5
+
+COCOAPODS: 1.0.1

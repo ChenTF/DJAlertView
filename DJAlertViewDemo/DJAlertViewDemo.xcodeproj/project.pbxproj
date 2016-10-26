@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D3D5B16CDD5928AFDD2664 /* libPods-DJAlertViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0888A40BCD6A695E9373141D /* libPods-DJAlertViewDemo.a */; };
+		9B74D42E1D93885A007710CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D42D1D93885A007710CB /* main.m */; };
+		9B74D4311D93885A007710CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D4301D93885A007710CB /* AppDelegate.m */; };
+		9B74D4341D93885A007710CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D4331D93885A007710CB /* ViewController.m */; };
+		9B74D4371D93885A007710CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D4351D93885A007710CB /* Main.storyboard */; };
+		9B74D4391D93885A007710CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D4381D93885A007710CB /* Assets.xcassets */; };
+		9B74D43C1D93885A007710CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D43A1D93885A007710CB /* LaunchScreen.storyboard */; };
+		9B98B7C71DB9BFD100C58293 /* SYAddFeeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98B7B91DB9BFD100C58293 /* SYAddFeeAlertView.m */; };
+		9B98B7C81DB9BFD100C58293 /* SYCommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98B7BB1DB9BFD100C58293 /* SYCommonAlertView.m */; };
+		9B98B7C91DB9BFD100C58293 /* SYDispatchingAddFreeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98B7BD1DB9BFD100C58293 /* SYDispatchingAddFreeAlertView.m */; };
+		9B98B7CA1DB9BFD100C58293 /* SYInsuranceProgressAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98B7BF1DB9BFD100C58293 /* SYInsuranceProgressAlertView.m */; };
+		9B98B7CB1DB9BFD100C58293 /* SYLimitNoticeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98B7C11DB9BFD100C58293 /* SYLimitNoticeAlertView.m */; };
+		9B98B7CC1DB9BFD100C58293 /* SYOrderAddFreeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98B7C31DB9BFD100C58293 /* SYOrderAddFreeAlertView.m */; };
+		9B98B7CD1DB9BFD100C58293 /* SYAlertViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98B7C61DB9BFD100C58293 /* SYAlertViewFactory.m */; };
+		9BEC0BC71DC0CCC8001B48D7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC0BC61DC0CCC8001B48D7 /* UIColor+Hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0888A40BCD6A695E9373141D /* libPods-DJAlertViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJAlertViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7E3F4BD59B3B9D93F914CE /* Pods-DJAlertViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJAlertViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJAlertViewDemo/Pods-DJAlertViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9B74D4291D93885A007710CB /* DJAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B74D42D1D93885A007710CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B74D42F1D93885A007710CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B74D4301D93885A007710CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B74D4321D93885A007710CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B74D4331D93885A007710CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B74D4361D93885A007710CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B74D4381D93885A007710CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B74D43B1D93885A007710CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B74D43D1D93885A007710CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B98B7B81DB9BFD100C58293 /* SYAddFeeAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAddFeeAlertView.h; sourceTree = "<group>"; };
+		9B98B7B91DB9BFD100C58293 /* SYAddFeeAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAddFeeAlertView.m; sourceTree = "<group>"; };
+		9B98B7BA1DB9BFD100C58293 /* SYCommonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCommonAlertView.h; sourceTree = "<group>"; };
+		9B98B7BB1DB9BFD100C58293 /* SYCommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYCommonAlertView.m; sourceTree = "<group>"; };
+		9B98B7BC1DB9BFD100C58293 /* SYDispatchingAddFreeAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDispatchingAddFreeAlertView.h; sourceTree = "<group>"; };
+		9B98B7BD1DB9BFD100C58293 /* SYDispatchingAddFreeAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDispatchingAddFreeAlertView.m; sourceTree = "<group>"; };
+		9B98B7BE1DB9BFD100C58293 /* SYInsuranceProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYInsuranceProgressAlertView.h; sourceTree = "<group>"; };
+		9B98B7BF1DB9BFD100C58293 /* SYInsuranceProgressAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYInsuranceProgressAlertView.m; sourceTree = "<group>"; };
+		9B98B7C01DB9BFD100C58293 /* SYLimitNoticeAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLimitNoticeAlertView.h; sourceTree = "<group>"; };
+		9B98B7C11DB9BFD100C58293 /* SYLimitNoticeAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLimitNoticeAlertView.m; sourceTree = "<group>"; };
+		9B98B7C21DB9BFD100C58293 /* SYOrderAddFreeAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYOrderAddFreeAlertView.h; sourceTree = "<group>"; };
+		9B98B7C31DB9BFD100C58293 /* SYOrderAddFreeAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYOrderAddFreeAlertView.m; sourceTree = "<group>"; };
+		9B98B7C51DB9BFD100C58293 /* SYAlertViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAlertViewFactory.h; sourceTree = "<group>"; };
+		9B98B7C61DB9BFD100C58293 /* SYAlertViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAlertViewFactory.m; sourceTree = "<group>"; };
+		9BEC0BC51DC0CCC8001B48D7 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		9BEC0BC61DC0CCC8001B48D7 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		EB601694B3DB3B1B23882C21 /* Pods-DJAlertViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJAlertViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJAlertViewDemo/Pods-DJAlertViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B74D4261D93885A007710CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D3D5B16CDD5928AFDD2664 /* libPods-DJAlertViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B74D4201D93885A007710CB = {
+			isa = PBXGroup;
+			children = (
+				9B74D42B1D93885A007710CB /* DJAlertViewDemo */,
+				9B74D42A1D93885A007710CB /* Products */,
+				D9B4C4BB61174DC73A6BADDD /* Pods */,
+				FF0521D424348B3608BDBE7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B74D42A1D93885A007710CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D4291D93885A007710CB /* DJAlertViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B74D42B1D93885A007710CB /* DJAlertViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BEC0BC41DC0CCC8001B48D7 /* Category */,
+				9B98B7B41DB9BFD100C58293 /* Handler */,
+				9B74D42F1D93885A007710CB /* AppDelegate.h */,
+				9B74D4301D93885A007710CB /* AppDelegate.m */,
+				9B74D4321D93885A007710CB /* ViewController.h */,
+				9B74D4331D93885A007710CB /* ViewController.m */,
+				9B74D4351D93885A007710CB /* Main.storyboard */,
+				9B74D4381D93885A007710CB /* Assets.xcassets */,
+				9B74D43A1D93885A007710CB /* LaunchScreen.storyboard */,
+				9B74D43D1D93885A007710CB /* Info.plist */,
+				9B74D42C1D93885A007710CB /* Supporting Files */,
+			);
+			path = DJAlertViewDemo;
+			sourceTree = "<group>";
+		};
+		9B74D42C1D93885A007710CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D42D1D93885A007710CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B98B7B41DB9BFD100C58293 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				9B98B7B51DB9BFD100C58293 /* AlertView */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		9B98B7B51DB9BFD100C58293 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				9B98B7B61DB9BFD100C58293 /* ConcreteAlertView */,
+				9B98B7C41DB9BFD100C58293 /* Factory */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		9B98B7B61DB9BFD100C58293 /* ConcreteAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				9B98B7B71DB9BFD100C58293 /* SYAlertView */,
+			);
+			path = ConcreteAlertView;
+			sourceTree = "<group>";
+		};
+		9B98B7B71DB9BFD100C58293 /* SYAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				9B98B7B81DB9BFD100C58293 /* SYAddFeeAlertView.h */,
+				9B98B7B91DB9BFD100C58293 /* SYAddFeeAlertView.m */,
+				9B98B7BA1DB9BFD100C58293 /* SYCommonAlertView.h */,
+				9B98B7BB1DB9BFD100C58293 /* SYCommonAlertView.m */,
+				9B98B7BC1DB9BFD100C58293 /* SYDispatchingAddFreeAlertView.h */,
+				9B98B7BD1DB9BFD100C58293 /* SYDispatchingAddFreeAlertView.m */,
+				9B98B7BE1DB9BFD100C58293 /* SYInsuranceProgressAlertView.h */,
+				9B98B7BF1DB9BFD100C58293 /* SYInsuranceProgressAlertView.m */,
+				9B98B7C01DB9BFD100C58293 /* SYLimitNoticeAlertView.h */,
+				9B98B7C11DB9BFD100C58293 /* SYLimitNoticeAlertView.m */,
+				9B98B7C21DB9BFD100C58293 /* SYOrderAddFreeAlertView.h */,
+				9B98B7C31DB9BFD100C58293 /* SYOrderAddFreeAlertView.m */,
+			);
+			path = SYAlertView;
+			sourceTree = "<group>";
+		};
+		9B98B7C41DB9BFD100C58293 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				9B98B7C51DB9BFD100C58293 /* SYAlertViewFactory.h */,
+				9B98B7C61DB9BFD100C58293 /* SYAlertViewFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		9BEC0BC41DC0CCC8001B48D7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9BEC0BC51DC0CCC8001B48D7 /* UIColor+Hex.h */,
+				9BEC0BC61DC0CCC8001B48D7 /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D9B4C4BB61174DC73A6BADDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB601694B3DB3B1B23882C21 /* Pods-DJAlertViewDemo.debug.xcconfig */,
+				5C7E3F4BD59B3B9D93F914CE /* Pods-DJAlertViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF0521D424348B3608BDBE7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0888A40BCD6A695E9373141D /* libPods-DJAlertViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B74D4281D93885A007710CB /* DJAlertViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B74D4401D93885A007710CB /* Build configuration list for PBXNativeTarget "DJAlertViewDemo" */;
+			buildPhases = (
+				4885905AEDD2D87E2A037009 /* [CP] Check Pods Manifest.lock */,
+				9B74D4251D93885A007710CB /* Sources */,
+				9B74D4261D93885A007710CB /* Frameworks */,
+				9B74D4271D93885A007710CB /* Resources */,
+				A2FC87CE2DDA6DB32185B860 /* [CP] Embed Pods Frameworks */,
+				81DD8AE1298B7A418AC34A10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJAlertViewDemo;
+			productName = DJAlertViewDemo;
+			productReference = 9B74D4291D93885A007710CB /* DJAlertViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B74D4211D93885A007710CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = chentengfei;
+				TargetAttributes = {
+					9B74D4281D93885A007710CB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B74D4241D93885A007710CB /* Build configuration list for PBXProject "DJAlertViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B74D4201D93885A007710CB;
+			productRefGroup = 9B74D42A1D93885A007710CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B74D4281D93885A007710CB /* DJAlertViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B74D4271D93885A007710CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B74D43C1D93885A007710CB /* LaunchScreen.storyboard in Resources */,
+				9B74D4391D93885A007710CB /* Assets.xcassets in Resources */,
+				9B74D4371D93885A007710CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4885905AEDD2D87E2A037009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81DD8AE1298B7A418AC34A10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJAlertViewDemo/Pods-DJAlertViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FC87CE2DDA6DB32185B860 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJAlertViewDemo/Pods-DJAlertViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B74D4251D93885A007710CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B98B7C71DB9BFD100C58293 /* SYAddFeeAlertView.m in Sources */,
+				9B74D4341D93885A007710CB /* ViewController.m in Sources */,
+				9B98B7CC1DB9BFD100C58293 /* SYOrderAddFreeAlertView.m in Sources */,
+				9B98B7C91DB9BFD100C58293 /* SYDispatchingAddFreeAlertView.m in Sources */,
+				9B98B7C81DB9BFD100C58293 /* SYCommonAlertView.m in Sources */,
+				9B98B7CB1DB9BFD100C58293 /* SYLimitNoticeAlertView.m in Sources */,
+				9B98B7CA1DB9BFD100C58293 /* SYInsuranceProgressAlertView.m in Sources */,
+				9B74D4311D93885A007710CB /* AppDelegate.m in Sources */,
+				9BEC0BC71DC0CCC8001B48D7 /* UIColor+Hex.m in Sources */,
+				9B74D42E1D93885A007710CB /* main.m in Sources */,
+				9B98B7CD1DB9BFD100C58293 /* SYAlertViewFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B74D4351D93885A007710CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B74D4361D93885A007710CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B74D43A1D93885A007710CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B74D43B1D93885A007710CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B74D43E1D93885A007710CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B74D43F1D93885A007710CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B74D4411D93885A007710CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB601694B3DB3B1B23882C21 /* Pods-DJAlertViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJAlertViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.58daojia.DJAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B74D4421D93885A007710CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7E3F4BD59B3B9D93F914CE /* Pods-DJAlertViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJAlertViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.58daojia.DJAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B74D4241D93885A007710CB /* Build configuration list for PBXProject "DJAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B74D43E1D93885A007710CB /* Debug */,
+				9B74D43F1D93885A007710CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B74D4401D93885A007710CB /* Build configuration list for PBXNativeTarget "DJAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B74D4411D93885A007710CB /* Debug */,
+				9B74D4421D93885A007710CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B74D4211D93885A007710CB /* Project object */;
+}

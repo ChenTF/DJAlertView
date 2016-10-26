@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://git.djcorp.cn/apps/SuyunComponents.git'
+source 'http://git.djcorp.cn/apps/iOSComponents.git'
+
+inhibit_all_warnings!
+
+platform :ios, '7.0'
+
+target "DJAlertViewDemo" do
+	pod "DJAlertView", :path => “../../DJAlertView"
+end
