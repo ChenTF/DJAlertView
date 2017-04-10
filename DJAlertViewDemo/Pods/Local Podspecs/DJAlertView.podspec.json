@@ -1,15 +1,15 @@
 {
   "name": "DJAlertView",
   "version": "1.0.0",
-  "summary": "速运自定义AlertView",
-  "description": "速运自定义AlertView,可高度自定义.",
-  "homepage": "http://www.58daojia.com",
+  "summary": "通用自定义AlertView",
+  "description": "自定义AlertView,可高度自定义.",
+  "homepage": "",
   "license": "MIT",
   "authors": {
-    "moxiannan": "moxn@daojia.com"
+    "moxiannan": "313074989@qq.com"
   },
   "source": {
-    "svn": "http://svn.djcorp.cn/dianshangwuxian/trunk/mobile/suyun_all/58suyun_iOS/58SuYun/SuYunLib/SYUIComponents/DJAlertView"
+    "svn": ""
   },
   "platforms": {
     "ios": "7.0"
